@@ -1,0 +1,51 @@
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    body {
+        background-color: #472a7d; 
+        color:white;
+    }
+
+    img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    section {
+        /*tamanho vertical*/
+        height: 450px;
+        /*atributos da imagem*/
+        background-image: url('../assets/imagem-front-end.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        /*filtro*/
+        filter: grayscale(60%);
+        opacity: 30%;
+       
+        /*alinhamento*/
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .footer-style {
+        background: #e7e7e7;
+        color: #050505;
+        width: 700px;
+        font-size: 12px;
+    }
+
+    .footer-font2{
+        color: gray;
+        padding-top: 6px;
+    }
+
+   .pad-right {
+        padding-right: 25px;
+   }
+

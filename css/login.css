@@ -1,0 +1,78 @@
+.container-login{
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    width: 40%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    display: grid;
+}
+
+.right {
+    width: 60%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+    /* atributos da imagem*/
+    background-image: url('../assets/front-end-login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /*filtro*/
+        filter: grayscale(60%);
+    
+
+}
+
+.font-welcome{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.font-sub-welcome{
+    font-size: 16px;
+    color: gray;
+}
+.borda-login{
+    /*atributos da imagem */
+    background-image: url('../assets/back02.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: #472a7d;*/
+
+    padding: 100px;
+
+    /*filtro*/
+        filter: grayscale(60%);
+}
+ .input-email-login {
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 4px;
+        background: white;
+        width: 100%;
+        height: 28px;
+    }
+
+.input-senha-login {
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 4px;
+        background: white;
+        width: 100%;
+        height: 28px;
+    }
+
+    

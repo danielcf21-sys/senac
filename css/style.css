@@ -1,0 +1,98 @@
+    .roboto-400 {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    .header-style {
+        padding-left: 20px; 
+        padding-right: 20px; 
+        background: #472a7d; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+  
+    /* classes de botões */
+
+    .button1-style {
+        color: #472a7d; 
+        background: white; 
+        border: 1px solid #472a7d; 
+        margin-right: 5px; 
+        padding: 18px; 
+        border-radius: 30px;
+    }
+
+    .button2-style {
+        color: white; 
+        background: #472a7d; 
+        border: 1px solid #472a7d; 
+        margin-right: 5px; 
+        padding: 18px;
+        border-radius: 30px;
+    }
+
+    .h1-style {
+        padding-left: 10px;
+        color: white
+    }
+
+    .style-voltar {
+        text-decoration: none;
+        color: #3483fa;
+    }
+
+    /*classes de alinhamento*/
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-center {
+        position: relative;
+        text-align: center;
+    }
+    
+    .center {
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-panel {
+        background:white;
+    }
+
+    a {
+        text-decoration: none;
+        color: #101010;
+    }
+
+    .caption{
+        font-size: 13px;
+        color: gray;
+    }
+
+     .bt-1{
+        color: white;
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 4px;
+        background: #472a7d;
+        width: 100%;
+    }
+
+     .bt-google{
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 4px;
+        background: white;
+        margin: 20px;
+        width: 90%;
+    }
